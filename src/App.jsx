@@ -15,7 +15,7 @@ function App() {
   return (
     <Wrapper>
       <Title>Friends List</Title>
-      {friends.map(friend => (
+      {friends.slice(0, 4).map(friend => (
         <FriendCard
           key={friend.id}
           name={friend.name}
