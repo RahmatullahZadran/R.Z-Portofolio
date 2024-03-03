@@ -45,3 +45,16 @@
 .card > .remove:hover {
   color: #d50000;
 }
+.card {
+  /* Your existing styles for the card */
+  /* Add any additional styles here */
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.1); /* Increase the size when hovered */
+}
+
+.remove {
+  /* Your existing styles for the remove button */
+}
