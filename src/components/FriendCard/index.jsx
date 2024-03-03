@@ -1,26 +1,27 @@
-import React from "react";
-import "./style.css";
+import React from 'react';
+import './style.css';
 
-function FriendCard(props) {
-  const handleRemoveClick = () => {
-    props.deleteFriend(props.id);
+function FriendCard({ name, image, occupation, location, deleteFriend, onClick }) {
+  const handleRemoveClick = (event) => {
+    event.stopPropagation(); // Prevent event propagation to parent elements
+    deleteFriend();
   };
 
   return (
-    <div className="card">
+    <div className="card" onClick={onClick}>
       <div className="img-container">
-        <img alt={props.name} src={props.image} />
+        <img src={image} alt={name} />
       </div>
       <div className="content">
         <ul>
           <li>
-            <strong>Name:</strong> {props.name}
+            <strong>Name:</strong> {name}
           </li>
           <li>
-            <strong>Occupation:</strong> {props.occupation}
+            <strong>Occupation:</strong> {occupation}
           </li>
           <li>
-            <strong>Address:</strong> {props.location}
+            <strong>Address:</strong> {location}
           </li>
         </ul>
       </div>

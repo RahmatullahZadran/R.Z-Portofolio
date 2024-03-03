@@ -42,19 +42,15 @@
   cursor: pointer;
 }
 
-.card > .remove:hover {
+.title > .remove:hover {
   color: #d50000;
 }
-.card {
-  /* Your existing styles for the card */
-  /* Add any additional styles here */
+.title {
+  transform: scale(1);
   transition: transform 0.3s ease;
 }
 
-.card:hover {
+.title:hover {
   transform: scale(1.1); /* Increase the size when hovered */
 }
 
-.remove {
-  /* Your existing styles for the remove button */
-}
