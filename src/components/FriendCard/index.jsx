@@ -8,7 +8,7 @@ function FriendCard({ name, image, occupation, location, deleteFriend, onClick }
   };
 
   return (
-    <div className="card" onClick={onClick}>
+    <div className="card" onClick={onClick} style={{ cursor: 'pointer' }}>
       <div className="img-container">
         <img src={image} alt={name} />
       </div>
