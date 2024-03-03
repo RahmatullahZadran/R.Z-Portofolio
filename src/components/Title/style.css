@@ -1,23 +1,19 @@
 .title {
+  transform: scale(1);
   width: 100%;
   text-align: center;
   font-family: 'Lobster', cursive;
   font-size: 3rem;
-  color: #2A77AE;
+  color: #ffffff;
   margin-bottom: 0px;
   background-color: black;
+  text-shadow: 0 0 10px #2A77AE, 0 0 20px #2A77AE, 0 0 30px #2A77AE, 0 0 40px #2A77AE;
 }
 
 .card {
-  /* Your existing styles for the card */
-  /* Add any additional styles here */
+
   transition: transform 0.3s ease;
 }
 
 .card:hover {
-  transform: scale(1.1); /* Increase the size when hovered */
-}
-
-.remove {
-  /* Your existing styles for the remove button */
-}
+  transform: scale(1.1); 
