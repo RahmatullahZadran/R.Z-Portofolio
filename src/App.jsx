@@ -3,6 +3,7 @@ import FriendCard from './components/FriendCard';
 import Wrapper from './components/Wrapper';
 import Title from './components/Title';
 import friendsData from './friends.json';
+import NavBar from './components/NavBar';
 
 function App() {
   const [friends, setFriends] = useState(friendsData);
@@ -13,19 +14,22 @@ function App() {
   };
 
   return (
-    <Wrapper>
-      <Title>Friends List</Title>
-      {friends.slice(0, 4).map(friend => (
-        <FriendCard
-          key={friend.id}
-          name={friend.name}
-          image={friend.image}
-          occupation={friend.occupation}
-          location={friend.location}
-          deleteFriend={() => deleteFriend(friend.id)}
-        />
-      ))}
-    </Wrapper>
+    <div>
+      <Wrapper>
+        <Title>Friends List</Title>
+        {friends.slice(0, 4).map(friend => (
+          <FriendCard
+            key={friend.id}
+            name={friend.name}
+            image={friend.image}
+            occupation={friend.occupation}
+            location={friend.location}
+            deleteFriend={() => deleteFriend(friend.id)}
+          />
+        ))}
+      </Wrapper>
+      <NavBar />
+    </div>
   );
 }
 
