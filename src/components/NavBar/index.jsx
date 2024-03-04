@@ -11,8 +11,8 @@ function NavBar(props) {
                 </button>
                 <div className="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
                     <div className="navbar-nav">
-                        <a className="nav-link active navbar-brand" aria-current="page" href="#">GitHub</a>
-                        <a className="nav-link navbar-brand" href="#">LinkedIn</a>
+                        <a className="nav-link active navbar-brand" aria-current="page" href="https://github.com/RahmatullahZadran" target="blank">GitHub</a>
+                        <a className="nav-link navbar-brand" href="https://www.linkedin.com/in/rahmatullah-zadran-10b8391a6/" target="blank">LinkedIn</a>
                         <a className="nav-link navbar-brand" href="#">Email</a>
                         <a className="nav-link navbar-brand" href="#">Contact</a>
 
