@@ -49,6 +49,8 @@ function App() {
       <NavBar />
       {isPopoverVisible && (
         <div className="popover">
+          <h3>{selectedFriend.name}</h3>
+          <img height={200} width={200} src={selectedFriend.image} alt={selectedFriend.name} />
           <p>Name: {selectedFriend.name}</p>
           <p>Occupation: {selectedFriend.occupation}</p>
           <p>Location: {selectedFriend.location}</p>
