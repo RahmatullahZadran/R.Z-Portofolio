@@ -1,6 +1,7 @@
 import React from 'react';
 import './style.css';
 
+
 function FriendCard({ name, image, occupation, location, deleteFriend, onClick }) {
   const handleRemoveClick = (event) => {
     event.stopPropagation(); // Prevent event propagation to parent elements

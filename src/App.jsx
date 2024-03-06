@@ -5,6 +5,13 @@ import Title from './components/Title';
 import friendsData from './friends.json';
 import NavBar from './components/NavBar';
 import Loading from './components/Loading';
+import Popover from './components/Popover'; // Import the Popover component
+import image1 from '../src/components/images/github.png';
+import image2 from '../src/components/images/desktop.png';
+import image3 from '../src/components/images/github.png';
+import image4 from '../src/components/images/github.png';
+import image5 from '../src/components/images/github.png';
+import image6 from '../src/components/images/github.png';
 
 function App() {
   const [friends, setFriends] = useState(friendsData);
@@ -27,15 +34,22 @@ function App() {
   return (
     <div>
       <Wrapper>
-        <Title>Rahmatullah Zadran Portofolio</Title>
+        <Title>Rahmatullah Zadran Portfolio</Title>
         {remainingFriendsCount === 0 ? (
           <Loading remainingFriends={remainingFriendsCount} totalFriends={totalFriendsCount} />
         ) : (
-          friends.slice(0, 8).map(friend => (
+          friends.slice(0, 8).map((friend, index) => (
             <FriendCard
               key={friend.id}
               name={friend.name}
-              image={friend.image}
+              image={
+                index === 0 ? image1 :
+                index === 1 ? image2 :
+                index === 2 ? image3 :
+                index === 3 ? image4 :
+                index === 4 ? image5 :
+                image6
+              }
               occupation={friend.occupation}
               location={friend.location}
               deleteFriend={() => deleteFriend(friend.id)}
@@ -45,18 +59,14 @@ function App() {
         )}
       </Wrapper>
   
-  <Loading remainingFriends={remainingFriendsCount} totalFriends={totalFriendsCount} />
-      <NavBar />
       {isPopoverVisible && (
-        <div className="popover">
-          <h3>{selectedFriend.name}</h3>
-          <img height={200} width={200} src={selectedFriend.image} alt={selectedFriend.name} />
-          <p>Name: {selectedFriend.name}</p>
-          <p>Occupation: {selectedFriend.occupation}</p>
-          <p>Location: {selectedFriend.location}</p>
-          <button onClick={() => setIsPopoverVisible(false)}>Close</button>
-        </div>
+        <Popover
+          selectedFriend={selectedFriend}
+          setIsPopoverVisible={setIsPopoverVisible}
+          images={[image1, image2, image3, image4, image5, image6]} // Pass the images as props
+        />
       )}
+      <NavBar />
     </div>
   );
 }
