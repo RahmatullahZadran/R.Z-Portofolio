@@ -1,91 +1,72 @@
-
-
-
 [
   {
-
     "id": 1,
-    "name": "SpongeBob",
-    "image": "../images/github.png", 
-    "occupation": "Fry Cook",
-    "location": "A Pineapple Under the Sea"
+    "name": "GITHUB",
+    "detailedInfo": "Throughout my experience, I've extensively utilized GitHub for managing a myriad of repositories. Whether working alone or collaborating with others, GitHub's versatility has been indispensable. From creating branches to merging changes, its seamless integration into my workflow has facilitated efficient project management. With its robust features, I've navigated through numerous repositories, orchestrating code changes with ease and precision. It's a joy to work with."
   },
-  
   {
     "id": 2,
-    "name": "Mr. Krabs",
-    "image": "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131",
-    "occupation": "Restaurant Owner",
-    "location": "A Giant Anchor"
+    "name": "React",
+    "detailedInfo": "I've utilized React extensively for building a variety of websites, including my portfolio. Its component-based architecture and efficient rendering have allowed me to create interactive and dynamic user interfaces with ease. Whether developing single-page applications or complex web platforms, React's flexibility and robust ecosystem have been invaluable in bringing my projects to life."
   },
   {
     "id": 3,
-    "name": "Squidward",
-    "image": "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
-    "occupation": "Cashier",
-    "location": "An Easter Island Head"
+    "name": "HTML",
+    "detailedInfo": "I've utilized HTML extensively to structure my websites, employing various tags such as <form>, <input>, <button>, and more. These tags allow me to create interactive and user-friendly interfaces, enabling users to input data, submit forms, and interact with the content seamlessly. HTML serves as the backbone of web development, providing the foundation for organizing and presenting information on the web."
   },
+  
   {
-    "id": 4,
-    "name": "Dexter",
-    "image": "https://s-media-cache-ak0.pinimg.com/originals/fe/32/49/fe32495d45283cd6860ae122f0aeaad9.png",
-    "occupation": "Boy Genius",
-    "location": "A Secret Laboratory"
+      "id": 4,
+      "name": "CSS",
+      "detailedInfo": "I've utilized CSS extensively to enhance the visual appeal of my website, employing a variety of styles and colors. By applying CSS rules to different elements, I've customized the layout, typography, colors, and other visual aspects of my web pages. Whether using CSS frameworks or writing custom styles, I've created unique and attractive designs that complement the content and engage visitors. CSS allows me to experiment with different color schemes, fonts, and layouts, ensuring a visually appealing and cohesive user experience."
   },
+  
   {
     "id": 5,
     "name": "Courage",
     "image": "https://vignette4.wikia.nocookie.net/vsbattles/images/3/39/Courage-0.png/revision/latest?cb=20160719055423",
-    "occupation": "A Cowardly Dog",
-    "location": "Nowhere, Kansas"
+    "detailedInfo": "Nowhere, Kansas"
   },
   {
     "id": 6,
     "name": "Doug Funnie",
     "image": "https://vignette1.wikia.nocookie.net/doug/images/3/3b/Doug001.gif/revision/latest?cb=20110807170511",
-    "occupation": "Student",
-    "location": "Bluffington"
+    "detailedInfo": "Bluffington"
   },
   {
     "id": 7,
     "name": "Bugs Bunny",
     "image": "https://vignette2.wikia.nocookie.net/deathbattlefanon/images/2/2b/Bugs_Bunny.png/revision/latest?cb=20151206010607",
-    "occupation": "Looney Toon",
-    "location": "A Rabbit Burrow"
+    "detailedInfo": "A Rabbit Burrow"
   },
   {
     "id": 8,
     "name": "Johnny Bravo",
     "image": "http://vignette3.wikia.nocookie.net/p__/images/9/9a/Johnny_Bravo.png/revision/latest?cb=20131031233339&path-prefix=protagonist",
-    "occupation": "Ladies Man",
-    "location": "Aron City"
+    "detailedInfo": "Aron City"
   },
   {
     "id": 9,
     "name": "Tommy Pickles",
     "image": "https://vignette4.wikia.nocookie.net/uncyclopedia/images/e/e4/Tommy_Pickles.png/revision/latest?cb=20110530102641",
-    "occupation": "Adventurer",
-    "location": "California"
+    "detailedInfo": "California"
   },
   {
     "id": 10,
     "name": "Rocko",
     "image": "http://vignette3.wikia.nocookie.net/rockosmodernlife/images/9/9e/Rockos-modern-life-4e582a8f06a41.png/revision/latest?cb=20130522173416",
-    "occupation": "Cashier",
-    "location": "O-Town, California"
+    "detailedInfo": "O-Town, California"
   },
   {
     "id": 11,
     "name": "Captain Planet",
     "image": "http://vignette2.wikia.nocookie.net/dragon-rap-battles/images/b/b6/Captain_Planet.png/revision/latest?cb=20160911200836",
-    "occupation": "Superhero",
-    "location": "Earth"
+    "detailedInfo": "Earth"
   },
   {
     "id": 12,
     "name": "Ickis",
     "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png",
-    "occupation": "Ahhhh! A Real Monster!",
-    "location": "Under a City Dump"
+    "detailedInfo": "Under a City Dump"
   }
 ]

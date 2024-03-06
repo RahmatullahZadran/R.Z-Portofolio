@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css';
 
 
-function FriendCard({ name, image, occupation, location, deleteFriend, onClick }) {
+function FriendCard({ name, image, info, detailedInfo, deleteFriend, onClick }) {
   const handleRemoveClick = (event) => {
     event.stopPropagation(); // Prevent event propagation to parent elements
     deleteFriend();
@@ -16,14 +16,15 @@ function FriendCard({ name, image, occupation, location, deleteFriend, onClick }
       <div className="content">
         <ul>
           <li>
-            <strong>Name:</strong> {name}
+            <strong></strong> {name}
           </li>
+   
           <li>
-            <strong>Occupation:</strong> {occupation}
+            {/* <strong>Info:</strong> {info} */}
           </li>
-          <li>
+          {/* <li>
             <strong>Address:</strong> {location}
-          </li>
+          </li> */}
         </ul>
       </div>
       <span className="remove" onClick={handleRemoveClick}>𝘅</span>
