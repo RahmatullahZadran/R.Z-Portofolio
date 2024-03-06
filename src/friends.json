@@ -23,50 +23,37 @@
   
   {
     "id": 5,
-    "name": "Courage",
-    "image": "https://vignette4.wikia.nocookie.net/vsbattles/images/3/39/Courage-0.png/revision/latest?cb=20160719055423",
-    "detailedInfo": "Nowhere, Kansas"
+    "name": "JavaScript",
+    "detailedInfo": "I've utilized JavaScript extensively to enhance the functionality and interactivity of my web projects. JavaScript has been instrumental in implementing various features such as dynamic content loading, form validation, and interactive user interfaces. By writing JavaScript code, I've been able to create smooth transitions, animations, and effects that engage visitors and improve the overall user experience. Additionally, JavaScript enables me to handle user input, manipulate the DOM (Document Object Model), and make asynchronous requests to servers, allowing for seamless and responsive web applications."
   },
+  
   {
     "id": 6,
-    "name": "Doug Funnie",
-    "image": "https://vignette1.wikia.nocookie.net/doug/images/3/3b/Doug001.gif/revision/latest?cb=20110807170511",
-    "detailedInfo": "Bluffington"
+    "name": "jQuery",
+    "detailedInfo": "I've leveraged jQuery to significantly streamline my web development process, allowing me to save time, write code more efficiently, and improve the overall quality of my projects. By utilizing jQuery's concise syntax and powerful utility functions, I've been able to accomplish complex tasks with fewer lines of code, resulting in quicker development cycles and reduced debugging efforts. Additionally, jQuery's extensive plugin ecosystem has enabled me to integrate various APIs seamlessly into my projects, enhancing functionality and providing access to a wealth of resources and services."
   },
+  
   {
     "id": 7,
-    "name": "Bugs Bunny",
-    "image": "https://vignette2.wikia.nocookie.net/deathbattlefanon/images/2/2b/Bugs_Bunny.png/revision/latest?cb=20151206010607",
-    "detailedInfo": "A Rabbit Burrow"
+    "name": "APIs",
+    "detailedInfo": "I've extensively utilized various APIs to enhance the functionality and content of my web applications. By integrating APIs, I've been able to access a wide range of data and services, enabling me to display dynamic content, provide real-time information, and offer personalized experiences to users. Whether it's retrieving weather forecasts, fetching news articles, or accessing social media data, APIs have allowed me to enrich my applications with up-to-date and relevant information from external sources."
   },
+  
   {
     "id": 8,
-    "name": "Johnny Bravo",
-    "image": "http://vignette3.wikia.nocookie.net/p__/images/9/9a/Johnny_Bravo.png/revision/latest?cb=20131031233339&path-prefix=protagonist",
-    "detailedInfo": "Aron City"
+    "name": "Project One",
+    "detailedInfo": "Project One is a web application created as part of our portfolio. It serves as a simple movie search website, utilizing various APIs for enhanced functionality. With the movie search feature, users can find detailed information about movies they're interested in. Additionally, the integration of the Spotify API allows users to discover publicly curated playlists related to their favorite movies. The website also features front-page movie recommendations powered by the Moviesdatabase API. We have utilized HTML, CSS, JavaScript, jQuery, Bootstrap, and Excalidraw in the development process. Feel free to explore our project on GitHub (https://github.com/RahmatullahZadran/Project-One) and run it locally to see the results."
   },
+
   {
-    "id": 9,
-    "name": "Tommy Pickles",
-    "image": "https://vignette4.wikia.nocookie.net/uncyclopedia/images/e/e4/Tommy_Pickles.png/revision/latest?cb=20110530102641",
-    "detailedInfo": "California"
-  },
-  {
-    "id": 10,
-    "name": "Rocko",
-    "image": "http://vignette3.wikia.nocookie.net/rockosmodernlife/images/9/9e/Rockos-modern-life-4e582a8f06a41.png/revision/latest?cb=20130522173416",
-    "detailedInfo": "O-Town, California"
-  },
-  {
-    "id": 11,
-    "name": "Captain Planet",
-    "image": "http://vignette2.wikia.nocookie.net/dragon-rap-battles/images/b/b6/Captain_Planet.png/revision/latest?cb=20160911200836",
-    "detailedInfo": "Earth"
-  },
-  {
-    "id": 12,
-    "name": "Ickis",
-    "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png",
-    "detailedInfo": "Under a City Dump"
-  }
+  "id": 9,
+  "name": "Bootstrap",
+  "detailedInfo": "Bootstrap has played a significant role in expediting my web development process. Leveraging Bootstrap's rich set of pre-designed components and responsive grid system, I've been able to create sleek and mobile-friendly user interfaces with remarkable ease. By incorporating Bootstrap's ready-made elements such as navigation bars, buttons, and forms, I've saved valuable time that would otherwise be spent on designing and styling from scratch. Moreover, Bootstrap's extensive documentation and active community support have been invaluable resources, providing quick solutions to any challenges encountered during development. In essence, Bootstrap has empowered me to craft polished and professional-looking websites efficiently, allowing me to focus more on refining functionality and user experience."
+}
+,
+{
+  "id": 10,
+  "name": "Calendar",
+  "detailedInfo": "The calendar feature provides users with the ability to view and manage events, appointments, and schedules conveniently. It offers a visual representation of dates, allowing users to navigate through months, weeks, or days effortlessly. Additionally, the calendar may include features such as event creation, editing, and deletion, as well as reminders and notifications to keep users informed about upcoming activities. Whether for personal use or business purposes, the calendar feature enhances productivity and organization by providing a centralized platform for managing time and commitments effectively."
+}
 ]
