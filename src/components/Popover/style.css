@@ -1,55 +1,78 @@
 .popovers {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #ffffff;
-    border: 1px solid #e0e0e0;
-    border-radius: 8px; /* Add rounded corners */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
-    padding: 20px;
-    z-index: 999;
-    width: 400px; /* Adjust the width of the popover container */
-    max-height: 80vh; /* Limit the maximum height of the popover */
-    overflow-y: auto; /* Add vertical scroll if content exceeds height */
-    transition: opacity 0.3s, transform 0.3s; /* Apply transitions for smoother appearance */
-  }
-  
-  .popovers.show {
-    opacity: 1;
-    transform: translate(-50%, -50%);
-  }
-  
-  .popovers h3 {
-    margin-top: 0;a
-    font-size: 24px;
-    color: #333333;
-  }
-  
-  .popovers img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px; /* Add rounded corners to images */
-  }
-  
-  .popovers p {
-    margin: 10px 0;
-    font-size: 16px;
-    color: #666666;
-  }
-  
-  .popovers button {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background-color: transparent;
-    border: none;
-    font-size: 20px;
-    color: #ff4444; /* Red color for the close button */
-    cursor: pointer;
-  }
-  
-  .popovers button:hover {
-    color: #ff0000; /* Darker red color on hover */
-  }
-  
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px; /* Increased border radius for smoother edges */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Increased box shadow for depth */
+  padding: 20px;
+  z-index: 999;
+  width: 450px; /* Increased width for a better layout */
+  max-height: 90vh; /* Adjusted maximum height for better responsiveness */
+  overflow-y: auto;
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.popovers.show {
+  opacity: 1;
+  transform: translate(-50%, -50%);
+}
+
+.popovers h3 {
+  margin-top: 0;
+  font-size: 28px; /* Increased font size for the title */
+  color: #333333;
+}
+
+.popovers img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px; /* Adjusted border radius for consistency */
+  margin-bottom: 20px; /* Added margin bottom for spacing */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Added box shadow for images */
+}
+
+.popovers .info {
+  margin-bottom: 20px; /* Added margin bottom for spacing */
+  font-size: 18px; /* Increased font size for the information */
+  line-height: 1.5; /* Improved line height for better readability */
+  color: #666666;
+}
+
+.popovers .detailed-info {
+  margin-top: 20px; /* Added margin top for separation */
+  padding: 20px; /* Increased padding for better spacing */
+  border-radius: 12px; /* Adjusted border radius */
+  background-color: #f9f9f9; /* Light background color */
+  border: 1px solid #e0e0e0; /* Border for detailed info */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Added box shadow */
+}
+
+.popovers .detailed-info h4 {
+  margin-top: 0; /* Reset margin for the heading */
+  font-size: 20px; /* Adjusted font size for the heading */
+  color: #333333;
+}
+
+.popovers .detailed-info p {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #666666;
+}
+
+.popovers button.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  color: #ff4444;
+  cursor: pointer;
+}
+
+.popovers button.close-button:hover {
+  color: #ff0000;
+}

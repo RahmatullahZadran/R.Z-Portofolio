@@ -16,8 +16,8 @@ function Popover({ selectedFriend, setIsPopoverVisible, imageMap }) {
     <div className={`popovers ${showPopover ? 'show' : ''}`}>
       <button className="close-button" onClick={() => setIsPopoverVisible(false)}>×</button>
       <h3>{selectedFriend.name}</h3>
-      <img height={250} width={400} src={imageMap[selectedFriend.id]} alt={selectedFriend.name} />
-      <p> {selectedFriend.detailedInfo}</p>
+      <img className = "image" height={250} width={400} src={imageMap[selectedFriend.id]} alt={selectedFriend.name} />
+      <p className = "info"> {selectedFriend.detailedInfo}</p>
     </div>
   );
 }
