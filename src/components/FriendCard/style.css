@@ -32,6 +32,12 @@
   
 }
 
+/* on hover change background color  */
+
+.card > .content:hover {
+  background-color: #ff0000;
+}
+
 .card > .content > ul {
   list-style-type: none;
 }
