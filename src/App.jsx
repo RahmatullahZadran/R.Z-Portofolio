@@ -5,7 +5,7 @@ import Title from './components/Title';
 import friendsData from './friends.json';
 import NavBar from './components/NavBar';
 import Loading from './components/Loading';
-import Popover from './components/Popover';
+import Popover from './components/Popovers';
 import image1 from '../src/components/images/github.png';
 import image2 from '../src/components/images/React.png';
 import image3 from '../src/components/images/github.png';
