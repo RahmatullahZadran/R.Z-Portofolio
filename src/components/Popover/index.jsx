@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react';
-// import './style.css';
-import `./style.css`;  
+import './style.css'; // Assuming your CSS file is named 'style.css'
 
-function Popover({ selectedFriend, setIsPopoverVisible, images }) {
+function Popover({ selectedFriend, setIsPopoverVisible, imageMap }) {
   const [showPopover, setShowPopover] = useState(false);
 
   useEffect(() => {
@@ -17,7 +16,7 @@ function Popover({ selectedFriend, setIsPopoverVisible, images }) {
     <div className={`popovers ${showPopover ? 'show' : ''}`}>
       <button className="close-button" onClick={() => setIsPopoverVisible(false)}>×</button>
       <h3>{selectedFriend.name}</h3>
-      <img height={250} width={400} src={images[selectedFriend.id - 1]} alt={selectedFriend.name} />
+      <img height={250} width={400} src={imageMap[selectedFriend.id]} alt={selectedFriend.name} />
       <p> {selectedFriend.detailedInfo}</p>
     </div>
   );
