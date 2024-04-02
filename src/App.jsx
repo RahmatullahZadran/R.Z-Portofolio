@@ -7,7 +7,7 @@ import NavBar from './components/NavBar';
 import Loading from './components/Loading';
 import Popover from './components/Popover';
 import image2 from '../src/components/images/github.png';
-import image1 from '../src/components/images/samartgadgets.png';
+import image1 from '../src/components/images/smartgadgets.png';
 import image11 from '../src/components/images/React.png';
 import image3 from '../src/components/images/html.png';
 import image4 from '../src/components/images/css.png';
