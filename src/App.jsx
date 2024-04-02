@@ -6,8 +6,9 @@ import friendsData from './friends.json';
 import NavBar from './components/NavBar';
 import Loading from './components/Loading';
 import Popover from './components/Popover';
-import image1 from '../src/components/images/github.png';
-import image2 from '../src/components/images/React.png';
+import image2 from '../src/components/images/github.png';
+import image1 from '../src/components/images/samartgadgets.png';
+import image11 from '../src/components/images/React.png';
 import image3 from '../src/components/images/html.png';
 import image4 from '../src/components/images/css.png';
 import image5 from '../src/components/images/java.png';
@@ -33,7 +34,8 @@ function App() {
     7: image7,
     8: image8,
     9: image9,
-    10: image10
+    10: image10,
+    11: image11
 
     // Add more mappings as needed
   };

@@ -1,11 +1,17 @@
 [
   {
-    "id": 1,
+    "id": 2,
     "name": "GITHUB",
     "detailedInfo": "Throughout my experience, I've extensively utilized GitHub for managing a myriad of repositories. Whether working alone or collaborating with others, GitHub's versatility has been indispensable. From creating branches to merging changes, its seamless integration into my workflow has facilitated efficient project management. With its robust features, I've navigated through numerous repositories, orchestrating code changes with ease and precision. It's a joy to work with."
   },
   {
-    "id": 2,
+    "id": 1,
+    "name": "Smartgadge",
+    "detailedInfo": "During the final project of Bootcamp, I assumed the role of Frontend Developer, leading a team of 6 students in creating an e-commerce website. Leveraging React, Vite, Tailwind CSS, and Firebase, we crafted a seamless shopping experience. My responsibilities included defining project requirements, implementing responsive user interfaces, and integrating backend services. Through efficient code architecture and collaboration, we successfully delivered advanced features such as user authentication, product listing, and shopping cart functionality within the specified timeframe. This experience honed my skills in frontend development, project management, and teamwork, while deepening my understanding of e-commerce website development"
+  },
+
+  {
+    "id": 11,
     "name": "React",
     "detailedInfo": "I've utilized React extensively for building a variety of websites, including my portfolio. Its component-based architecture and efficient rendering have allowed me to create interactive and dynamic user interfaces with ease. Whether developing single-page applications or complex web platforms, React's flexibility and robust ecosystem have been invaluable in bringing my projects to life."
   },
